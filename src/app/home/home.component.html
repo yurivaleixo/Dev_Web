@@ -1,0 +1,9 @@
+<h3>Lista de pessoas</h3>
+
+<div *ngFor="let pessoa of listaDePessoas">
+    <h4>id: {{pessoa.id}} Nome: {{pessoa.nome}}</h4>
+    <h4>CPF: {{pessoa.cpf}}</h4>
+    <h4>Foto: {{pessoa.foto}}</h4>
+    <img src={{pessoa.foto}}>
+    <p>------------------</p>
+</div>
