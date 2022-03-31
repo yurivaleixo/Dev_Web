@@ -32,7 +32,7 @@ import { HttpClientModule } from '@angular/common/http';
     SobreComponent
   ],
   imports: [
-
+    HttpClientModule,
     BrowserModule,
     MatIconModule,
     MatDividerModule,
