@@ -19,6 +19,11 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatIconModule} from '@angular/material/icon';
 
 import { HttpClientModule } from '@angular/common/http';
+import { CadastrosComponent } from './cadastros/cadastros.component';
+import { IncluirComponent } from './cadastros/produtos/incluir.component';
+import { ExcluirComponent } from './cadastros/produtos/excluir.component';
+import { EditarComponent } from './cadastros/produtos/editar.component';
+import { ListarComponent } from './cadastros/produtos/listar.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +34,12 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     HomeComponent,
     AdminComponent,
-    SobreComponent
+    SobreComponent,
+    CadastrosComponent,
+    IncluirComponent,
+    ExcluirComponent,
+    EditarComponent,
+    ListarComponent
   ],
   imports: [
     BrowserModule,
