@@ -10,6 +10,7 @@ import { CadastroService } from 'src/services/cadastro.service';
 export class ListarComponent implements OnInit {
 
   produtos : Produto[] = [];
+  colunas: string[] = ['id', 'nome', 'descricao', 'acoes'];
 
   constructor(private cadastro : CadastroService) { }
 

@@ -16,8 +16,8 @@ const routes: Routes = [
       children : [
         {path: "produtos", component: ListarComponent},
         {path: "incluir", component: IncluirComponent},
-        {path: "excluir", component: ExcluirComponent},
-        {path: "editar", component: EditarComponent}
+        {path: "excluir/:id", component: ExcluirComponent},
+        {path: "editar/:id", component: EditarComponent}
 
       ]
   },

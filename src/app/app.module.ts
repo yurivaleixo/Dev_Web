@@ -17,6 +17,11 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatButtonModule } from '@angular/material/button';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatIconModule} from '@angular/material/icon';
+import {MatCardModule} from '@angular/material/card';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
+import {MatTableModule} from '@angular/material/table';
 
 import { HttpClientModule } from '@angular/common/http';
 import { CadastrosComponent } from './cadastros/cadastros.component';
@@ -24,6 +29,7 @@ import { IncluirComponent } from './cadastros/produtos/incluir.component';
 import { ExcluirComponent } from './cadastros/produtos/excluir.component';
 import { EditarComponent } from './cadastros/produtos/editar.component';
 import { ListarComponent } from './cadastros/produtos/listar.component';
+
 
 @NgModule({
   declarations: [
@@ -49,6 +55,11 @@ import { ListarComponent } from './cadastros/produtos/listar.component';
     MatButtonModule,
     MatSliderModule,
     AppRoutingModule,
+    MatCardModule,
+    MatFormFieldModule,
+    MatInputModule,
+    FormsModule,
+    MatTableModule,
     BrowserAnimationsModule
   ],
   providers: [],

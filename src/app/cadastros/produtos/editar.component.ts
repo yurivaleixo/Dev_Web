@@ -29,9 +29,11 @@ export class EditarComponent implements OnInit {
 }
 
   salvarProduto(){
-    console.log("-----------> Executou o método salvarProduto()");
-    this.cadastro.incluirProduto(this.produto);
+    console.log("Executou!");
+    this.cadastro.atualizarProduto(this.produto, this.produto.id).subscribe(()=>{
       this.router.navigate(['/cadastros/produtos']);
+    });
+      
   }
 
 }
